@@ -1,0 +1,45 @@
+body {
+  font-family: "Manrope", sans-serif;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.header {
+  padding-top: 30px;
+  padding-bottom: 70px;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  vertical-align: bottom;
+}
+
+.menu {
+  margin-left: 560px;
+}
+
+.menu-list {
+  list-style: none;
+  display: flex;
+  gap: 60px;
+}
+
+.menu-item a {
+  font-size: 18px;
+  line-height: 25px;
+  text-decoration: none;
+  color: #121212;
+  cursor: pointer;
+}
+
+.menu-item a:hover {
+  border-bottom: 1px solid rgb(0, 0, 0);
+  opacity: 0.5;
+}
