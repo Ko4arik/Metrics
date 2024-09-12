@@ -61,8 +61,7 @@ body {
 }
 
 .main-image {
-  padding-top: 379px;
-  padding-left: 40px;
+  position: relative;
   width: 1170px;
   height: 500px;
   background-image: url(../img/main-image.png);
@@ -71,9 +70,44 @@ body {
 }
 
 .main-image-text {
+  position: absolute;
+  left: 40px;
+  bottom: 40px;
   width: 430px;
   font-size: 20px;
   line-height: 27px;
   letter-spacing: -0.03em;
   color: #fff;
+}
+
+.about-info {
+  width: 1048px;
+}
+
+.about-title {
+  font-size: 18px;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+}
+
+.about-text {
+  margin-top: 30px;
+  font-size: 45px;
+  line-height: 61px;
+  letter-spacing: -0.03em;
+}
+
+.about-btn {
+  margin-top: 30px;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 20px 40px;
+
+  background: #ad1818;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: -0.03em;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
 }
