@@ -230,3 +230,37 @@ body {
   letter-spacing: -0.03em;
   color: #fff;
 }
+
+.contacts {
+  margin-top: 150px;
+}
+
+.contact-info {
+  margin-top: 12px;
+}
+
+.contact-title {
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: -3%;
+  text-transform: uppercase;
+}
+
+.contact-phone {
+  margin-top: 30px;
+  font-size: 60px;
+  line-height: 100%;
+  letter-spacing: -0.03em;
+  color: #121212;
+  text-decoration: none;
+}
+
+.contact-mail {
+  margin-top: 30px;
+  font-size: 60px;
+  line-height: 100%;
+  letter-spacing: -0.03em;
+  color: #121212;
+  text-decoration: none;
+  opacity: 0.5;
+}
