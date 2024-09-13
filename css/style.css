@@ -1,13 +1,9 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Manrope", sans-serif;
-}
-
-section {
-  margin-top: 150px;
-}
-
-section:first-child {
-  margin-top: 0;
 }
 
 .container {
@@ -84,6 +80,10 @@ section:first-child {
   color: #fff;
 }
 
+.about {
+  margin-top: 150px;
+}
+
 .about-info {
   width: 1048px;
 }
@@ -115,6 +115,10 @@ section:first-child {
   color: #fff;
   text-decoration: none;
   cursor: pointer;
+}
+
+.projects {
+  margin-top: 150px;
 }
 
 .projects .project-info {
@@ -174,6 +178,7 @@ section:first-child {
 }
 
 .services {
+  margin-top: 150px;
   padding-bottom: 150px;
   background: #121212;
 }
@@ -204,5 +209,24 @@ section:first-child {
   font-size: 30px;
   line-height: 41px;
   letter-spacing: -3%;
+  color: #fff;
+}
+
+.image {
+  height: 717px;
+  position: relative;
+  background-image: url("../img/section-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.image-text {
+  position: absolute;
+  left: 125px;
+  bottom: 60px;
+  width: 443px;
+  font-size: 30px;
+  line-height: 41px;
+  letter-spacing: -0.03em;
   color: #fff;
 }
